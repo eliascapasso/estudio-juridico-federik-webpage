@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'market';
+  public wsp: string = "https://wa.link/twyxkw";
 }

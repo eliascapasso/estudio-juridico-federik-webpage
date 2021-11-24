@@ -1,3 +1,12 @@
 <app-menu></app-menu>
 <router-outlet></router-outlet>
+<!-- Floating Button -->
+<a
+  [href]="wsp"
+  target="_blank"
+  class="float"
+  *ngIf="wsp != '' && wsp != null && wsp != undefined"
+>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png" style="width: 70px; height: 70px;" />
+</a>
 <app-footer></app-footer>
